@@ -49,7 +49,12 @@ const Hero = () => {
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                   >
-                    <Image src="/rate.png" width={150} height={200} alt="hero-img"/>
+                    <Image
+                      src="/rate.png"
+                      width={200}
+                      height={200}
+                      alt="hero-img"
+                    />
                   </div>
                   <p
                     className="py-4"
@@ -57,7 +62,9 @@ const Hero = () => {
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                   >
-                   Ge din kropp den kärlek den behöver. Vår koppning och massage hjälper dig att slappna av, återhämta dig och må bättre."
+                    Ge din kropp den kärlek den behöver. Vår koppning och
+                    massage hjälper dig att slappna av, återhämta dig och må
+                    bättre.
                   </p>
                   {/* *************** */}
                   <div className="md:flex gap-4 py-6 grid">
@@ -84,16 +91,21 @@ const Hero = () => {
                 </div>
                 {/* *************** */}
                 <div
-                  className="relative md:py-0 py-16"
+                  className="relative md:py-0 py-1 border-2 mt-[-100px]"
                   data-aos="fade-left"
                   data-aos-duration="900"
                   data-aos-easing="ease-in-out-back"
                 >
-                  <Image src="/mohamed.png" width={500} height={200} alt="hero1"/>
+                  <Image
+                    src="/mohamed.png"
+                    width={500}
+                    height={200}
+                    alt="hero1"
+                  />
                 </div>
                 {/* *************** */}
               </div>
-                  <div className="w-full h-2 border-solid border-2  bg-black"></div>
+              <div className="w-full h-2 border-solid border-2  bg-black"></div>
               {/* *************** */}
             </div>
           </SwiperSlide>
@@ -109,7 +121,12 @@ const Hero = () => {
                     Alowishus Deliciious Coffee{" "}
                   </h1>
                   <div className="absolute top-56 mt-1 right-56 md:flex hidden">
-                    <Image src="/coffee/cafe.png" width={80} height={80} alt="cafe"/>
+                    <Image
+                      src="/coffee/cafe.png"
+                      width={80}
+                      height={80}
+                      alt="cafe"
+                    />
                   </div>
                   <p className="py-4">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.

@@ -41,7 +41,7 @@ const Hero = () => {
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                   >
-                    Din kropp, din hälsa – vår omsorg {" "}
+                    Din kropp, din hälsa – vår omsorg <br />
                   </h1>
                   <div
                     className="absolute top-56 mt-1 left-96 md:flex hidden"

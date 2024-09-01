@@ -91,7 +91,7 @@ const Hero = () => {
                 </div>
                 {/* *************** */}
                 <div
-                  className="relative md:py-0 py-1 border-2 mt-[-100px]"
+                  className="relative md:py-0 py-1 mt-[-100px]"
                   data-aos="fade-left"
                   data-aos-duration="900"
                   data-aos-easing="ease-in-out-back"

@@ -57,7 +57,7 @@ const products = [
   },
   {
     name: "Security",
-    description: "Your customers’ data will be safe and secure",
+    description: "Your customers&apos; data will be safe and secure",
     href: "#",
     icon: FingerPrintIcon,
   },
@@ -188,8 +188,10 @@ const Header = () => {
                 <span className="sr-only">Your Company</span>
                 <Image
                   alt=""
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="/hijama.png"
                   className="h-8 w-auto"
+                  width={500}
+                  height={500}
                 />
               </a>
               <button

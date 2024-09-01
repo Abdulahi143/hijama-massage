@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import Hero from "./_components/Hero";
 import Image from "next/image";
+import Services from "./_components/Services";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
     <Hero />
+    <Services />
     </>
   );
 }

@@ -38,14 +38,14 @@ const Hero = () => {
                     Din kropp, din hälsa – vår omsorg
                   </h1>
                   <div
-                    className="absolute top-0 right-0 md:top-1/2 md:right-0 transform -translate-y-1/2 md:translate-x-0 hidden md:flex"
+                    className="absolute top-0 right-0 md:top-1/3 md:right-0 transform -translate-y-1/2 md:translate-x-0 hidden md:flex"
                     data-aos="fade-left"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                   >
                     <Image
                       src="/rate.png"
-                      width={170}
+                      width={200}
                       height={170}
                       alt="rate"
                     />

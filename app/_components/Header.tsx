@@ -9,9 +9,14 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import {
+  ChevronDownIcon,
+  PhoneIcon,
+  PlayCircleIcon,
+  ShoppingBagIcon,
+} from "@heroicons/react/20/solid";
 /* **************  headlessui**************** */
 import {
-  Button,
   Dialog,
   DialogPanel,
   Disclosure,
@@ -22,13 +27,8 @@ import {
   PopoverGroup,
   PopoverPanel,
 } from "@headlessui/react";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-  ShoppingBagIcon,
-} from "@heroicons/react/20/solid";
 
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -44,35 +44,22 @@ import { useState } from "react";
 }
 const products = [
   {
-    name: "Analytics",
-    description: "Get a better understanding of your traffic",
+    name: "Behandlingar",
     href: "#",
-    icon: ChartPieIcon,
   },
   {
-    name: "Engagement",
+    name: "Produkter",
     description: "Speak directly to your customers",
     href: "#",
     icon: CursorArrowRaysIcon,
   },
   {
-    name: "Security",
+    name: "Varför oss?",
     description: "Your customers&apos; data will be safe and secure",
     href: "#",
     icon: FingerPrintIcon,
   },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools",
-    href: "#",
-    icon: SquaresPlusIcon,
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
-    icon: ArrowPathIcon,
-  },
+  
 ];
 {
   /* ************ callsToAction ****************** */
@@ -146,15 +133,6 @@ const Header = () => {
               data-aos-easing="ease-out-back"
             >
               Varför oss?
-            </a>
-            <a
-              href="#"
-              className="text-lg font-medium leading-6 text-gray-900"
-              data-aos="fade-left"
-              data-aos-duration="1600"
-              data-aos-easing="ease-out-back"
-            >
-              Nyheter/Rabatter
             </a>
           </PopoverGroup>
           {/* ****************************** */}
@@ -231,28 +209,26 @@ const Header = () => {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Features
+                    Behandlingar
                   </a>
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Marketplace
+                    Produkter
                   </a>
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Company
+                    Varför oss?
                   </a>
                 </div>
                 <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  <Button
                   >
-                    Log in
-                  </a>
+                    Boka nu
+                  </Button>
                 </div>
               </div>
             </div>

@@ -3,9 +3,14 @@
 import "aos/dist/aos.css";
 
 import AOS from "aos";
+import About from "./_components/About";
+import ContactForm from "./_components/ContactForm";
+import Footer from "./_components/Footer";
 import Hero from "./_components/Hero";
 import Image from "next/image";
+import Products from "./_components/Products";
 import Services from "./_components/Services";
+import Testimonial from "./_components/Testimonial";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -19,6 +24,11 @@ export default function Home() {
     <>
     <Hero />
     <Services />
+    <About />
+    {/* <Products /> */}
+    <Testimonial />
+    <ContactForm />
+    <Footer />
     </>
   );
 }

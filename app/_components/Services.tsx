@@ -35,7 +35,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-12">
+    <section className="py-8 antialiased dark:bg-gray-900 md:py-12">
       <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
         <div className="grid md:grid-cols-6 text-center md:py-16">
           <div className="md:col-start-2 col-span-4">
@@ -47,7 +47,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="mb-4 grid gap-4 sm:grid-cols-2 m<d:mb-8 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3">
           {services.map((service) => {
             return (
               <div

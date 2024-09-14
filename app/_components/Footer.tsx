@@ -71,6 +71,7 @@ const Footer = () => {
             <Image src="/wellnet.jpg" alt="welnet" width={100} height={100}/>
             <Image src="/minfrisk.png" alt="minfrisk" width={100} height={100}/>
             <Image src="/actiway.png" alt="actiway" width={100} height={100}/>
+            <Image src="/benify.png" alt="actiway" width={100} height={100}/>
   
           </div>
           </div>

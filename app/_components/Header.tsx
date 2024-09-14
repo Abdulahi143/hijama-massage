@@ -30,6 +30,7 @@ import {
 
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 {
@@ -83,7 +84,7 @@ const Header = () => {
         >
           {/* ****************************** */}
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Hijama Massage</span>
               <Image
                 alt=""
@@ -92,7 +93,7 @@ const Header = () => {
                 width={120}
                 height={80}
               />
-            </a>
+            </Link>
           </div>
           {/* ****************************** */}
           <div className="flex lg:hidden">
@@ -107,16 +108,16 @@ const Header = () => {
           </div>
           {/* ****************************** */}
           <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-            <a
-              href="#"
+            <Link
+              href="#behandlingar"
               className="text-lg font-medium leading-6 text-gray-900"
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-easing="ease-out-back"
             >
               Behandlingar
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-lg font-medium leading-6 text-gray-900"
               data-aos="fade-left"
@@ -124,8 +125,8 @@ const Header = () => {
               data-aos-easing="ease-out-back"
             >
               Produkter
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-lg font-medium leading-6 text-gray-900"
               data-aos="fade-left"
@@ -133,11 +134,11 @@ const Header = () => {
               data-aos-easing="ease-out-back"
             >
               Varför oss?
-            </a>
+            </Link>
           </PopoverGroup>
           {/* ****************************** */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-5">
-            <a
+            <Link
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
@@ -145,7 +146,7 @@ const Header = () => {
                 width={35}
                 className="hover:cursor-pointer bg-gray-50 hover:bg-gray-100 p-2 rounded-full shadow-lg shadow-gray-300 hover:scale-105 transition-all"
               />
-            </a>
+            </Link>
             <Button className="bg-gray-900 text-white p-3 rounded-md shadow-lg hover:scale-105 transition-all">
               {" "}
              Boka Nu
@@ -162,7 +163,7 @@ const Header = () => {
           <div className="fixed inset-0 z-10" />
           <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <Link href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image
                   alt=""
@@ -171,7 +172,7 @@ const Header = () => {
                   width={500}
                   height={500}
                 />
-              </a>
+              </Link>
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -205,24 +206,24 @@ const Header = () => {
                       ))}
                     </DisclosurePanel>
                   </Disclosure>
-                  <a
+                  <Link
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Behandlingar
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Produkter
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Varför oss?
-                  </a>
+                  </Link>
                 </div>
                 <div className="py-6">
                   <Button

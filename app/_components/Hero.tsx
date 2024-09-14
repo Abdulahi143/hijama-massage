@@ -26,7 +26,7 @@ const Hero = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="container mx-auto px-4 md:px-8 py-12 md:py-16">
+            <div className="container mx-auto px-4 md:px-8 pt-12 md:pt-16">
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="relative">
                   <h1
@@ -56,7 +56,9 @@ const Hero = () => {
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                   >
-                    Ge din kropp den kärlek den behöver. Vår koppning och massage hjälper dig att slappna av, återhämta dig och må bättre.
+                    Ge din kropp den kärlek den behöver. Vår koppning och
+                    massage hjälper dig att slappna av, återhämta dig och må
+                    bättre.
                   </p>
                   <div className="md:flex gap-4 py-6 grid">
                     <Button
@@ -79,19 +81,21 @@ const Hero = () => {
                     </Button>
                   </div>
                 </div>
-                <div className="relative" data-aos="fade-left"
+                <div
+                  className="relative"
+                  data-aos="fade-left"
                   data-aos-duration="900"
-                  data-aos-easing="ease-in-out-back">
+                  data-aos-easing="ease-in-out-back"
+                >
                   <Image
                     src="/mohamed.png"
                     width={500}
                     height={300}
-               
                     alt="hero"
                   />
                 </div>
               </div>
-              <div className="w-full h-2 border-solid border-2 bg-black mt-8"></div>
+              <div className="w-full h-2 border-solid border-2 bg-black mt-0"></div>
             </div>
           </SwiperSlide>
         </Swiper>

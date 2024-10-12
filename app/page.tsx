@@ -6,6 +6,7 @@ import AOS from "aos";
 import About from "./_components/About";
 import ContactForm from "./_components/ContactForm";
 import Footer from "./_components/Footer";
+import Gallery from "./_components/Gallery";
 import Hero from "./_components/Hero";
 import Image from "next/image";
 import Products from "./_components/Products";
@@ -38,6 +39,7 @@ export default function Home() {
     <div id="#kontakt">
     <ContactForm />
     </div>
+    <Gallery />
     <Footer />
     </>
   );

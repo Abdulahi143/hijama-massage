@@ -82,16 +82,18 @@ const Hero = () => {
                   </div>
                 </div>
                 <div
-                  className="relative"
+                  className="relative mb-[-20px] bord"
                   data-aos="fade-left"
                   data-aos-duration="900"
                   data-aos-easing="ease-in-out-back"
                 >
                   <Image
-                    src="/mohamed.png"
+                    src="/mohamed2.png"
                     width={500}
-                    height={300}
+                    height={50}
                     alt="hero"
+                    className="mb-[15px] border-red-200 border"
+
                   />
                 </div>
               </div>

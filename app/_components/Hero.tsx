@@ -92,7 +92,7 @@ const Hero = () => {
                     width={500}
                     height={50}
                     alt="hero"
-                    className="mb-[15px] border-red-200 border"
+                    className="mb-[15px]"
 
                   />
                 </div>
